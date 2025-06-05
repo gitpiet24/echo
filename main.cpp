@@ -4,7 +4,7 @@
 int main() {
   std::string line;
   if (std::getline(std::cin, line)){
-    std::count << line std::endl;
+    std::cout << line << std::endl;
   }
   return 0;
 }
